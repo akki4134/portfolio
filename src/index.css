@@ -1,6 +1,6 @@
 body {
   margin: 0; 
-  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  background-image: linear-gradient(to right top, #65dfc9, #6cdbeb);
   
   
   background-attachment: fixed;
@@ -40,11 +40,15 @@ a:hover {
 .app__main-content {
   position: relative;  
   padding: 25px 15px;
-  z-index: 1;
+  z-index: 2;
   height: 100%;
   box-shadow: 20px 20px 50px (rgba(0, 0, 0, 0.5));
   border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
   border-top: 2px solid rgba(255, 255, 255, 0.2);
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   border-left: 2px solid rgba(255, 255, 255, 0.2);
@@ -53,7 +57,72 @@ a:hover {
   background-clip: border-box;
 }
 
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5,
+.circle6,
+.circle7,
+.circle8 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 1.5),
+    rgba(255, 255, 255, 0.3)
+  );
+  position: absolute;
+  border-radius: 50%;
+}
 
+.circle1 {
+  top: 20%;
+  right: 1%;
+  height: 5rem;
+  width: 5rem;
+}
+.circle2 {
+  top: 0%;
+  right: 10%;
+  height: 7rem;
+  width: 7rem;
+}
+.circle3 {
+  bottom: 90%;
+  left: 50%;
+  height: 10rem;
+  width: 10rem;
+}
+.circle4 {
+  top: 0%;
+  left: 0%;
+  height: 15rem;
+  width: 15rem;
+}
+.circle5 {
+  bottom: 15%;
+  right: 10%;
+  height: 8rem;
+  width: 8rem;
+}
+.circle6 {
+  top: 0%;
+  left: 2%;
+  height: 4rem;
+  width: 4rem;
+}
+.circle7 {
+  bottom: 15%;
+  left: 1%;
+  height: 10rem;
+  width: 10rem;
+}
+.circle8 {
+  top: 30%;
+  right: 3%;
+  height: 5rem;
+  width: 5rem;
+}
 
 /* sidebar css */
 
@@ -64,7 +133,11 @@ a:hover {
   height: 100%;
   box-shadow: 20px 20px 50px (rgba(0, 0, 0, 0.5));
   border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
   border-top: 2px solid rgba(255, 255, 255, 0.2);
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   border-left: 2px solid rgba(255, 255, 255, 0.2);

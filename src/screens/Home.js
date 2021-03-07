@@ -25,11 +25,18 @@ export default function Home() {
                         </div>
                         <div className="col-lg-9 ">
                             <div className="app__main-content">
-                            <About />
-                                </div>
+                                <About />
+                            </div>
                         </div>
                     </div>
-
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <div class="circle3"></div>
+                    <div class="circle4"></div>
+                    <div class="circle5"></div>
+                    <div class="circle6"></div>
+                    <div class="circle7"></div>
+                    <div class="circle8"></div>
                 </div>
             </div>
         </div>
