@@ -1,4 +1,7 @@
 import React from 'react'
+import Sidebar from '../components/Sidebar'
+import About from '../components/About'
+
 import GlassCard from '../components/Glasscard'
 import Index from '../components/Index'
 import background from '../Assets/Images/1.jpg'
@@ -18,15 +21,11 @@ export default function Home() {
 
                     <div className="row">
                         <div className="col-lg-3">
-                            <div className="app__sidebar" >
-                                <animated.div >
-                                    side
-                                </animated.div>
-                            </div>
+                            <Sidebar />
                         </div>
                         <div className="col-lg-9 ">
                             <div className="app__main-content">
-                                main
+                            <About />
                                 </div>
                         </div>
                     </div>
