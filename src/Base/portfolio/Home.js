@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "./Home.css";
 
 export default function Home() {
   return (
@@ -28,7 +28,7 @@ export default function Home() {
       <div className="container-right">
         <div className="container-4">
           <div className="shape">Projects</div>
-          <div className="shape">Designs</div>
+          <div className="shape">Learn</div>
           <div className="shape">About</div>
           <div className="shape">Blog</div>
         </div>
